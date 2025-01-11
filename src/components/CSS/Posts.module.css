@@ -1,0 +1,26 @@
+.posts h2 {
+    font-size: 45px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    margin-left: 50px;
+}
+.post {
+    height: 350px;
+    width: 350px;
+    border: 1.7px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.post p {
+    font-size: 85px;
+}
